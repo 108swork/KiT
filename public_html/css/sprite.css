@@ -1,0 +1,143 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
+.icon-brand_logo11 {
+  background-image: url(sprite.png);
+  background-position: 0px -48px;
+  width: 160px;
+  height: 45px;
+}
+.icon-brand_logo12 {
+  background-image: url(sprite.png);
+  background-position: 0px -198px;
+  width: 162px;
+  height: 47px;
+}
+.icon-brand_logo21 {
+  background-image: url(sprite.png);
+  background-position: 0px -462px;
+  width: 177px;
+  height: 50px;
+}
+.icon-brand_logo22 {
+  background-image: url(sprite.png);
+  background-position: 0px -517px;
+  width: 179px;
+  height: 52px;
+}
+.icon-brand_logo31 {
+  background-image: url(sprite.png);
+  background-position: 0px 0px;
+  width: 175px;
+  height: 43px;
+}
+.icon-brand_logo32 {
+  background-image: url(sprite.png);
+  background-position: 0px -98px;
+  width: 177px;
+  height: 45px;
+}
+.icon-ci_icon1 {
+  background-image: url(sprite.png);
+  background-position: 0px -250px;
+  width: 50px;
+  height: 47px;
+}
+.icon-ci_icon2 {
+  background-image: url(sprite.png);
+  background-position: 0px -148px;
+  width: 49px;
+  height: 45px;
+}
+.icon-ci_icon3 {
+  background-image: url(sprite.png);
+  background-position: 0px -302px;
+  width: 50px;
+  height: 48px;
+}
+.icon-ci_icon4 {
+  background-image: url(sprite.png);
+  background-position: 0px -355px;
+  width: 50px;
+  height: 48px;
+}
+.icon-partn_icon1 {
+  background-image: url(sprite.png);
+  background-position: 0px -1040px;
+  width: 97px;
+  height: 74px;
+}
+.icon-partn_icon10 {
+  background-image: url(sprite.png);
+  background-position: 0px -574px;
+  width: 60px;
+  height: 60px;
+}
+.icon-partn_icon11 {
+  background-image: url(sprite.png);
+  background-position: 0px -899px;
+  width: 48px;
+  height: 64px;
+}
+.icon-partn_icon2 {
+  background-image: url(sprite.png);
+  background-position: 0px -1119px;
+  width: 99px;
+  height: 77px;
+}
+.icon-partn_icon3 {
+  background-image: url(sprite.png);
+  background-position: 0px -1201px;
+  width: 91px;
+  height: 91px;
+}
+.icon-partn_icon4 {
+  background-image: url(sprite.png);
+  background-position: 0px -968px;
+  width: 99px;
+  height: 67px;
+}
+.icon-partn_icon5 {
+  background-image: url(sprite.png);
+  background-position: 0px -834px;
+  width: 60px;
+  height: 60px;
+}
+.icon-partn_icon6 {
+  background-image: url(sprite.png);
+  background-position: 0px -769px;
+  width: 64px;
+  height: 60px;
+}
+.icon-partn_icon7 {
+  background-image: url(sprite.png);
+  background-position: 0px -408px;
+  width: 60px;
+  height: 49px;
+}
+.icon-partn_icon8 {
+  background-image: url(sprite.png);
+  background-position: 0px -639px;
+  width: 60px;
+  height: 60px;
+}
+.icon-partn_icon9 {
+  background-image: url(sprite.png);
+  background-position: 0px -704px;
+  width: 56px;
+  height: 60px;
+}
+.icon-up_logo {
+  background-image: url(sprite.png);
+  background-position: 0px -1297px;
+  width: 110px;
+  height: 108px;
+}

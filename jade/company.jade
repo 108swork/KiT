@@ -1,0 +1,73 @@
+doctype html
+html(lang="en")
+	head 
+		title company
+		meta(charset="utf-8")
+		//- meta(name="viewport" content="width=device-width, initial-scale=1.0")
+		//- meta(name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0")
+
+		link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css")
+		link(href='https://fonts.googleapis.com/css?family=Philosopher:400,700,400italic,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css')
+		link(rel="stylesheet" type="text/css" href="css/min/main.css")
+
+		script(src="https://code.jquery.com/jquery-1.11.3.min.js") 
+		script(src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js")
+		script(src="js/min/main.js") 
+
+	body
+		#wrap.cat_bg
+			#head_wrap
+				.header.sw.mauto
+					ul.head_menu.ta_just
+						li 
+							a(href="#")
+								span Компания
+						|&#32;
+						li 
+							a(href="#")
+								span Продукция
+						|&#32;
+						//- TODO change class when modx
+						li.some_class 
+							a(href="#")
+								span. 
+									Кондитерские
+									инновации и
+									технологии
+						|&#32;
+						li 
+							a(href="#")
+								span Партнерам
+						|&#32;
+						li 
+							a(href="#")
+								span Контакты
+						|&#32;
+			#company_wrap
+				.company.mauto
+					.h1_t1.mauto
+						h1 компания
+					p.p1.
+						<strong>ООО «Кондитерские инновации и технологии»</strong> – это производство высококачественных кондитерских изделий в Центрально Черноземном регионе. Основана в марте 2014 года и входит в состав крупного молокоперерабатывающего предприятия <strong>ООО «Курское молоко»</strong><br>
+						(<a href="http://kurskmoloko.ru">www.kurskmoloko.ru</a>).
+					p.p1.
+						В целом вектор развития предприятия <strong>ООО «КИТ»</strong> можно охарактеризовать - как инвестирование в производственные объекты, с целью оптимизации процессов направленных на выпуск, хранение и логистику производимой продукции.
+					p.p1.
+						Общее количество персонала составляет порядка 125 человек. Благодаря профессиональным навыкам и трудовой дисциплине на предприятии работает высококвалифицированная команда специалистов. Средний возраст руководящего персонала - 36 лет, что способствует оперативному внедрению инноваций на производстве.
+					p.p1.
+						Постоянный и строгий контроль всех этапов производства - это гарантия качества продукции <strong>ООО «КИТ»</strong>. Вся выпускаемая продукция подлежит обязательной сертификации.  
+					.com_imglist1.ta-just.mauto
+						//- TODO add when be ready
+					.h1_t1.t3.mauto
+						h2 производственные мощности
+					p.p2.mautota В настоящий момент компания производит  кондитерские изделия в следующем ассортименте:
+					.com_imglist21.ta-just.mauto
+					.com_imglist22.ta-just.mauto
+					p.p3.mautota Производство суфлейной и бисквитной продукции осуществляется на новом, полностью автоматизированном оборудовании, что позволяет свести к минимуму риск человеческой ошибки. Производственная мощность суфлейной и бисквитной линий - 300 и 360 кг. готовой продукции в час, соответственно. 
+					.com_imglist1.ta-just.mauto
+			#footer_wrap
+				.footer.mauto
+					.foo_left
+						p © 2015 ООО «Кондитерские инновации и технологии»
+					.foo_right
+						p Разработка сайта <a>Web верфЬ</a>

@@ -1,0 +1,1563 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+html {
+  font-size: 10px;
+}
+body {
+  overflow: auto;
+  background-color: #691003;
+  background: -webkit-linear-gradient(90deg, #691003 0%, #4b0a00 100%);
+  background: -moz-linear-gradient(90deg, #691003 0%, #4b0a00 100%);
+  background: linear-gradient(0deg, #691003 0%, #4b0a00 100%);
+}
+#wrap {
+  width: 100%;
+  min-width: 100rem;
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 7.6rem;
+  background-image: url("../../img/genp_bg.png");
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  background-origin: padding-box;
+}
+#wrap.cat_bg {
+  background-image: url("../../img/cat_bg.png");
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: padding-box;
+}
+#wrap.genp {
+  padding-bottom: 0;
+}
+#wrap.genp #footer_wrap {
+  display: none;
+}
+#footer_wrap {
+  width: 100%;
+  min-width: 100rem;
+  position: relative;
+  height: 7.6rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.wrap {
+  width: 100%;
+  min-width: 100rem;
+  position: relative;
+}
+.sw {
+  width: 100rem;
+}
+.mauto {
+  margin: 0 auto;
+}
+.mautota {
+  margin: 0 auto;
+  display: table;
+}
+.ta_just {
+  text-align: justify;
+}
+.ta_just > * {
+  display: inline-block;
+}
+.ta_just:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+.tac,
+.ta_c {
+  text-align: center;
+}
+.tar,
+.ta_r {
+  text-align: right;
+}
+.tal,
+.ta_l {
+  text-align: left;
+}
+.ttn {
+  text-transform: none;
+}
+.ttl {
+  text-transform: lowercase;
+}
+.ttu {
+  text-transform: uppercase;
+}
+.ttc {
+  text-transform: capitalize;
+}
+.vam {
+  display: inline-block;
+  vertical-align: middle;
+}
+div,
+ul {
+  list-style-type: none;
+}
+p {
+  font-size: 1.4rem;
+  color: #000;
+  line-height: 1.3;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  font-family: 'Philosopher';
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style-type: none;
+}
+#head_wrap {
+  width: 100%;
+  min-width: 100rem;
+  position: relative;
+}
+#head_wrap .header {
+  overflow: hidden;
+}
+#head_wrap .header ul.head_menu {
+  padding: 2rem 16.5rem;
+  font-size: 0px;
+}
+#head_wrap .header ul.head_menu li {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+#head_wrap .header ul.head_menu li a {
+  overflow: hidden;
+}
+#head_wrap .header ul.head_menu li a span {
+  font-size: 1.8rem;
+  color: #f4c644;
+  line-height: 1;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  font-family: 'Philosopher';
+  text-transform: capitalize;
+  position: relative;
+  top: -3rem;
+}
+#head_wrap .header ul.head_menu li.some_class a {
+  display: block;
+  height: 100%;
+}
+#head_wrap .header ul.head_menu li.some_class a:before {
+  content: '';
+  width: 11rem;
+  height: 10.8rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  background-image: url("../../img/sprite.png");
+  background-size: 17.9rem 140.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 -129.7rem;
+  display: block;
+  clear: both;
+  float: none;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+#head_wrap .header ul.head_menu li.some_class a span {
+  font-size: 1.2rem;
+  color: #300600;
+  line-height: 1.3;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: none;
+  font-family: 'Philosopher';
+  display: block;
+  width: 12rem;
+  position: static;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+#head_wrap .header ul.head_menu li.some_class:hover a span {
+  -webkit-transition: 1s;
+     -moz-transition: 1s;
+          transition: 1s;
+  color: #fff;
+}
+#head_wrap .header ul.head_menu li.active span {
+  text-decoration: underline;
+}
+#head_wrap .header ul.head_menu li:hover span {
+  -webkit-transition: 0.5s;
+     -moz-transition: 0.5s;
+          transition: 0.5s;
+  color: #fff;
+}
+#footer_wrap {
+  padding-top: 2.3rem;
+}
+#footer_wrap .footer {
+  overflow: hidden;
+  width: 93rem;
+}
+#footer_wrap .footer .foo_left {
+  float: left;
+  width: 60%;
+}
+#footer_wrap .footer .foo_left p {
+  font-size: 1.4rem;
+  color: #2c0400;
+  line-height: 1;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: none;
+  font-family: 'Philosopher';
+  text-transform: uppercase;
+}
+#footer_wrap .footer .foo_right {
+  float: right;
+  width: 30%;
+  text-align: right;
+}
+#footer_wrap .footer .foo_right p {
+  font-size: 1.4rem;
+  color: #2c0400;
+  line-height: 1;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: none;
+  font-family: 'Philosopher';
+}
+#footer_wrap .footer .foo_right p a:hover {
+  color: #fff;
+  cursor: pointer;
+  -webkit-transition: 1s;
+     -moz-transition: 1s;
+          transition: 1s;
+}
+#genp_slider_wrap {
+  margin-top: -1rem;
+}
+#genp_slider_wrap .genp_slider {
+  margin-bottom: 3rem;
+  width: 98rem;
+  overflow: hidden;
+}
+#genp_slider_wrap .genp_slider .gs_slide {
+  width: 98rem;
+  height: 50rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  position: relative;
+}
+#genp_slider_wrap .genp_slider .slide1 .sp {
+  position: absolute;
+}
+#genp_slider_wrap .genp_slider .slide1 .sp1 {
+  background-image: url("../../img/slide11.png");
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-origin: padding-box;
+  width: 43.7rem;
+  height: 32.7rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  top: 6.9rem;
+  left: 6.9rem;
+}
+#genp_slider_wrap .genp_slider .slide1 .sp2 {
+  background-image: url("../../img/slide12.png");
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-origin: padding-box;
+  width: 40.7rem;
+  height: 33.9rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  top: 4.7rem;
+  left: 45rem;
+}
+#genp_slider_wrap .genp_slider .slide1 .sp3 {
+  background-image: url("../../img/slide13.png");
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-origin: padding-box;
+  width: 29rem;
+  height: 21.3rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  top: 22rem;
+  left: 14.8rem;
+}
+#genp_slider_wrap .genp_slider .slide1 .sp4 {
+  background-image: url("../../img/slide14.png");
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-origin: padding-box;
+  width: 19.6rem;
+  height: 11rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  top: 32.2rem;
+  left: 44.2rem;
+}
+#genp_slider_wrap .genp_slider .slide1 .sp5 {
+  background-image: url("../../img/slide15.png");
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-origin: padding-box;
+  width: 52.2rem;
+  height: 13.6rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  top: 36.2rem;
+  left: 3.1rem;
+}
+#genp_slider_wrap .genp_slider .slide1 .sp6 {
+  background-image: url("../../img/slide16.png");
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-origin: padding-box;
+  width: 27.5rem;
+  height: 7.7rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  top: 32rem;
+  left: 66.2rem;
+}
+#genp_slider_wrap .genp_slider .slide1 .sp7 {
+  width: 25.4rem;
+  height: 5.9rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  overflow: hidden;
+  top: 40.1rem;
+  left: 67.1rem;
+  font-size: 1.2rem;
+  color: #c86800;
+  line-height: 1.3;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  font-family: 'Philosopher';
+  font-style: italic;
+  text-align: center;
+}
+#genp_slider_wrap .gs_menu {
+  padding: 0 5rem;
+  width: 67rem;
+  padding-bottom: 2rem;
+}
+#genp_slider_wrap .gs_menu .gsmt {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+#genp_slider_wrap .gs_menu .gsm_trig1 {
+  width: 16.2rem;
+  height: 4.7rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  background-image: url("../../img/sprite.png");
+  background-size: 17.9rem 140.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 -4.8rem;
+}
+#genp_slider_wrap .gs_menu .gsm_trig1:hover {
+  background-image: url("../../img/sprite.png");
+  background-size: 17.9rem 140.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 -19.8rem;
+}
+#genp_slider_wrap .gs_menu .gsm_trig2 {
+  width: 17.9rem;
+  height: 5.2rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  background-image: url("../../img/sprite.png");
+  background-size: 17.9rem 140.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 -46.2rem;
+  position: relative;
+  top: -1rem;
+}
+#genp_slider_wrap .gs_menu .gsm_trig2:hover {
+  background-image: url("../../img/sprite.png");
+  background-size: 17.9rem 140.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 -51.7rem;
+}
+#genp_slider_wrap .gs_menu .gsm_trig3 {
+  width: 17.7rem;
+  height: 4.5rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  background-image: url("../../img/sprite.png");
+  background-size: 17.9rem 140.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+#genp_slider_wrap .gs_menu .gsm_trig3:hover {
+  background-image: url("../../img/sprite.png");
+  background-size: 17.9rem 140.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 -9.8rem;
+}
+#cat_wrap {
+  width: 100%;
+  min-width: 100rem;
+  position: relative;
+  overflow: hidden;
+}
+#cat_wrap .cat {
+  width: 98rem;
+  background-image: url("../../img/cat_polka2.png");
+  background-repeat: repeat;
+  background-repeat: repeat-y;
+  background-position: 50% 6.7rem;
+  padding: 0 6rem;
+  margin-top: -6.5rem;
+  padding-bottom: 4rem;
+}
+#cat_wrap .cat .cat_item {
+  width: 25rem;
+  height: 16rem;
+  margin-top: 7rem;
+  position: relative;
+}
+#cat_wrap .cat .cat_item img {
+  width: 100%;
+}
+#cat_wrap .cat .cat_item p {
+  position: absolute;
+  text-align: center;
+  width: 25rem;
+  top: 14.2rem;
+  font-size: 1.2rem;
+  color: #fff;
+  line-height: 1.3;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: none;
+  font-family: 'Philosopher';
+  display: none;
+  opacity: 0;
+}
+#cat_wrap .cat .cat_item p span {
+  font-size: 1.8rem;
+  color: #fff;
+  line-height: 1.3;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: none;
+  font-family: 'Philosopher';
+}
+.cat_menu {
+  padding: 0 5rem;
+  width: 67rem;
+  padding-bottom: 2rem;
+}
+.cat_menu .catt {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.cat_menu .cat_trig1 {
+  width: 16.2rem;
+  height: 4.7rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  background-image: url("../../img/sprite.png");
+  background-size: 17.9rem 140.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 -4.8rem;
+}
+.cat_menu .cat_trig1:hover {
+  background-image: url("../../img/sprite.png");
+  background-size: 17.9rem 140.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 -19.8rem;
+}
+.cat_menu .cat_trig2 {
+  width: 17.9rem;
+  height: 5.2rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  background-image: url("../../img/sprite.png");
+  background-size: 17.9rem 140.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 -46.2rem;
+  position: relative;
+  top: -1rem;
+}
+.cat_menu .cat_trig2:hover {
+  background-image: url("../../img/sprite.png");
+  background-size: 17.9rem 140.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 -51.7rem;
+}
+.cat_menu .cat_trig3 {
+  width: 17.7rem;
+  height: 4.5rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  background-image: url("../../img/sprite.png");
+  background-size: 17.9rem 140.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+.cat_menu .cat_trig3:hover {
+  background-image: url("../../img/sprite.png");
+  background-size: 17.9rem 140.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 -9.8rem;
+}
+.h1_t1 {
+  background-image: url("../../img/h_bg1.png");
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-origin: padding-box;
+  text-align: center;
+  width: 28rem;
+  height: 5rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  margin-bottom: 3rem;
+}
+.h1_t1 h1,
+.h1_t1 h2 {
+  font-size: 2.8rem;
+  color: #fff;
+  line-height: 1;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: none;
+  font-family: 'Philosopher';
+  margin: 0;
+  text-transform: uppercase;
+  padding-top: 0.4rem;
+}
+.h1_t1.t2 {
+  background-image: url("../../img/h_bg2.png");
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-origin: padding-box;
+  width: 51rem;
+  height: 5rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+}
+.h1_t1.t3 {
+  background-image: url("../../img/h_bg3.png");
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-origin: padding-box;
+  width: 60rem;
+  height: 5rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+}
+#cat_it_wrap {
+  width: 100%;
+  min-width: 100rem;
+  position: relative;
+  overflow: hidden;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+#cat_it_wrap .cati {
+  width: 98rem;
+  padding: 1rem 2rem 1rem 3rem;
+  clear: both;
+  float: none;
+}
+#cat_it_wrap .cati .cati_breadcr {
+  font-size: 1.4rem;
+  color: #300600;
+  line-height: 1;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: none;
+  font-family: 'Philosopher';
+}
+#cat_it_wrap .cati .cati_breadcr span,
+#cat_it_wrap .cati .cati_breadcr a {
+  color: #ecba00;
+}
+#cat_it_wrap .cati .cati_breadcr a:hover {
+  color: #fff;
+  -webkit-transition: 0.5s;
+     -moz-transition: 0.5s;
+          transition: 0.5s;
+}
+#cat_it_wrap .cati .cati_left {
+  float: left;
+  width: 45.5rem;
+}
+#cat_it_wrap .cati .cati_left h1 {
+  width: 34.5rem;
+  clear: both;
+  float: none;
+  font-size: 3.6rem;
+  color: #fff;
+  line-height: 1;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  font-family: 'Philosopher';
+}
+#cat_it_wrap .cati .cati_left .ci {
+  display: inline-block;
+  vertical-align: top;
+  width: 5rem;
+  height: 4.8rem;
+  margin-bottom: 2.5rem;
+}
+#cat_it_wrap .cati .cati_left .cati_icon1 {
+  background-image: url("../../img/sprite.png");
+  background-size: 17.9rem 140.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 -25rem;
+}
+#cat_it_wrap .cati .cati_left .cati_icon2 {
+  background-image: url("../../img/sprite.png");
+  background-size: 17.9rem 140.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 -14.8rem;
+}
+#cat_it_wrap .cati .cati_left .cati_icon3 {
+  background-image: url("../../img/sprite.png");
+  background-size: 17.9rem 140.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 -30.2rem;
+}
+#cat_it_wrap .cati .cati_left .cati_icon4 {
+  background-image: url("../../img/sprite.png");
+  background-size: 17.9rem 140.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 -35.5rem;
+}
+#cat_it_wrap .cati .cati_left .cati_info {
+  padding-top: 0.8rem;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  width: 17rem;
+}
+#cat_it_wrap .cati .cati_left .cati_info .cati_prop {
+  font-size: 1.2rem;
+  color: #fff;
+  line-height: 1.3;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  font-family: 'Philosopher';
+  text-transform: uppercase;
+}
+#cat_it_wrap .cati .cati_left .cati_info .cati_val {
+  font-size: 1.6rem;
+  color: #fff;
+  line-height: 1.3;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  font-family: 'Philosopher';
+}
+#cat_it_wrap .cati .cati_left .cati_info .cati_val.small_text {
+  font-size: 1.4rem;
+  color: #fff;
+  line-height: 1.3;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  font-family: 'Philosopher';
+}
+#cat_it_wrap .cati .cati_right {
+  float: right;
+  width: 47rem;
+}
+#partn_wrap .h1_t1 {
+  margin-top: 1.5rem;
+}
+#partn_wrap .partn {
+  width: 93rem;
+}
+#partn_wrap .partn strong,
+#partn_wrap .partn h2 {
+  clear: both;
+  float: none;
+  margin: 0 auto;
+  display: table;
+}
+#partn_wrap .partn h2 {
+  font-size: 2.8rem;
+  color: #fff;
+  line-height: 1;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: none;
+  font-family: 'Philosopher';
+  margin-bottom: 4.5rem;
+}
+#partn_wrap .partn strong {
+  font-size: 1.6rem;
+  color: #fff;
+  line-height: 1.3;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  font-family: 'Philosopher';
+  margin-bottom: 2rem;
+}
+#partn_wrap .partn .pbll {
+  width: 45.5rem;
+  float: left;
+}
+#partn_wrap .partn .pblr {
+  float: right;
+  width: 47rem;
+}
+#partn_wrap .partn .partn_bl1,
+#partn_wrap .partn .partn_bl2 {
+  position: relative;
+  left: 3.5rem;
+}
+#partn_wrap .partn .partn_bl1 {
+  overflow: hidden;
+  margin-bottom: 3rem;
+}
+#partn_wrap .partn .partn_bl1 .icon,
+#partn_wrap .partn .partn_bl1 .info {
+  display: inline-block;
+  vertical-align: top;
+}
+#partn_wrap .partn .partn_bl1 .icon strong,
+#partn_wrap .partn .partn_bl1 .info strong {
+  margin: 0;
+  font-size: 1.6rem;
+  color: #fff;
+  line-height: 1.3;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: none;
+  font-family: 'Philosopher';
+  display: inline-block;
+  vertical-align: middle;
+}
+#partn_wrap .partn .partn_bl1 .icon {
+  width: 10rem;
+  height: 10rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  margin-right: 3rem;
+}
+#partn_wrap .partn .partn_bl1 .icon1,
+#partn_wrap .partn .partn_bl1 .icon2,
+#partn_wrap .partn .partn_bl1 .icon3,
+#partn_wrap .partn .partn_bl1 .icon4 {
+  position: relative;
+}
+#partn_wrap .partn .partn_bl1 .info {
+  font-size: 1.6rem;
+  color: #fff;
+  line-height: 1.3;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  font-family: 'Philosopher';
+}
+#partn_wrap .partn .partn_bl1 .icon1 {
+  width: 9.7rem;
+  height: 7.4rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  background-image: url("../../img/sprite.png");
+  background-size: 17.9rem 140.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 -104rem;
+}
+#partn_wrap .partn .partn_bl1 .icon2 {
+  width: 9.9rem;
+  height: 7.7rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  background-image: url("../../img/sprite.png");
+  background-size: 17.9rem 140.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 -111.9rem;
+}
+#partn_wrap .partn .partn_bl1 .icon3 {
+  width: 9.1rem;
+  height: 9.1rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  background-image: url("../../img/sprite.png");
+  background-size: 17.9rem 140.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 -120.1rem;
+  top: 2rem;
+}
+#partn_wrap .partn .partn_bl1 .icon4 {
+  width: 9.9rem;
+  height: 6.7rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  background-image: url("../../img/sprite.png");
+  background-size: 17.9rem 140.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 -96.8rem;
+  top: 2rem;
+}
+#partn_wrap .partn .partn_bl1 .pbll .info {
+  width: 28.5rem;
+}
+#partn_wrap .partn .partn_bl1 .pblr .info {
+  width: 30rem;
+}
+#partn_wrap .partn .partn_bl2 {
+  overflow: hidden;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+#partn_wrap .partn .partn_bl2 .icon,
+#partn_wrap .partn .partn_bl2 .info {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 4rem;
+}
+#partn_wrap .partn .partn_bl2 .info {
+  font-size: 1.6rem;
+  color: #fff;
+  line-height: 1.3;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  font-family: 'Philosopher';
+}
+#partn_wrap .partn .partn_bl2 .info strong {
+  margin: 0;
+  font-size: 1.6rem;
+  color: #fff;
+  line-height: 1.3;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: none;
+  font-family: 'Philosopher';
+  display: inline-block;
+  vertical-align: middle;
+}
+#partn_wrap .partn .partn_bl2 .icon {
+  width: 7rem;
+  height: 6rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  margin-right: 2rem;
+}
+#partn_wrap .partn .partn_bl2 .icon5,
+#partn_wrap .partn .partn_bl2 .icon6,
+#partn_wrap .partn .partn_bl2 .icon7,
+#partn_wrap .partn .partn_bl2 .icon8,
+#partn_wrap .partn .partn_bl2 .icon9,
+#partn_wrap .partn .partn_bl2 .icon10,
+#partn_wrap .partn .partn_bl2 .icon11 {
+  position: relative;
+}
+#partn_wrap .partn .partn_bl2 .pbll .info {
+  width: 35.5rem;
+}
+#partn_wrap .partn .partn_bl2 .pblr .info {
+  width: 36.5rem;
+}
+#partn_wrap .partn .partn_bl2 .icon5 {
+  width: 6rem;
+  height: 6rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  background-image: url("../../img/sprite.png");
+  background-size: 17.9rem 140.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 -83.4rem;
+}
+#partn_wrap .partn .partn_bl2 .icon6 {
+  width: 6.4rem;
+  height: 6rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  background-image: url("../../img/sprite.png");
+  background-size: 17.9rem 140.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 -76.9rem;
+  top: -0.8rem;
+}
+#partn_wrap .partn .partn_bl2 .icon7 {
+  width: 6rem;
+  height: 4.9rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  background-image: url("../../img/sprite.png");
+  background-size: 17.9rem 140.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 -40.8rem;
+}
+#partn_wrap .partn .partn_bl2 .icon8 {
+  width: 6rem;
+  height: 6rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  background-image: url("../../img/sprite.png");
+  background-size: 17.9rem 140.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 -63.9rem;
+  top: -1rem;
+}
+#partn_wrap .partn .partn_bl2 .icon9 {
+  width: 5.6rem;
+  height: 6rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  background-image: url("../../img/sprite.png");
+  background-size: 17.9rem 140.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 -70.4rem;
+  top: -1rem;
+}
+#partn_wrap .partn .partn_bl2 .icon10 {
+  width: 6rem;
+  height: 6rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  background-image: url("../../img/sprite.png");
+  background-size: 17.9rem 140.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 -57.4rem;
+}
+#partn_wrap .partn .partn_bl2 .icon11 {
+  width: 4.8rem;
+  height: 6.4rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  background-image: url("../../img/sprite.png");
+  background-size: 17.9rem 140.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 -89.9rem;
+  top: 1rem;
+}
+#company_wrap {
+  width: 100%;
+  min-width: 100rem;
+  position: relative;
+}
+#company_wrap .company {
+  width: 98rem;
+}
+#company_wrap .company p.p1 {
+  width: 80rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  text-indent: 2rem;
+  font-size: 1.6rem;
+  color: #fff;
+  line-height: 1.5;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  font-family: 'Philosopher';
+}
+#company_wrap .company p.p1 a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #fff;
+  line-height: 1.3;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  font-family: 'Philosopher';
+}
+#company_wrap .company p.p1 a:hover {
+  text-shadow: 0 0 5px #fff;
+}
+#company_wrap .company .com_imglist1.ta-just,
+#company_wrap .company .com_imglist21.ta-just {
+  width: 77rem;
+}
+#company_wrap .company .com_imglist22.ta-just {
+  width: 57rem;
+}
+#company_wrap .company p.p2 {
+  font-size: 1.6rem;
+  color: #fff;
+  line-height: 1.3;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  font-family: 'Philosopher';
+}
+#company_wrap .company p.p3 {
+  width: 77rem;
+  text-indent: 3.5rem;
+  font-size: 1.6rem;
+  color: #fff;
+  line-height: 1.4;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  font-family: 'Philosopher';
+}
+#cont_wrap {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding-top: 1.5rem;
+  min-height: 65rem;
+}
+#cont_wrap .cw_bgp {
+  position: absolute;
+  left: 50%;
+}
+#cont_wrap #cw_bgp1 {
+  background-image: url("../../img/cont_bg1.png");
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-origin: padding-box;
+  width: 30.9rem;
+  height: 38.9rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  top: 12rem;
+  margin-left: -66.6rem;
+}
+#cont_wrap #cw_bgp2 {
+  background-image: url("../../img/cont_bg2.png");
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-origin: padding-box;
+  width: 19.1rem;
+  height: 16.7rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  top: 43.2rem;
+  margin-left: -62.7rem;
+}
+#cont_wrap #cw_bgp3 {
+  background-image: url("../../img/cont_bg3.png");
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-origin: padding-box;
+  width: 42rem;
+  height: 46rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  top: 13rem;
+  margin-left: 40.8rem;
+}
+#cont_wrap #contact_body {
+  z-index: 1;
+}
+#cont_wrap #contact_body #conttrig {
+  width: 45.5rem;
+  margin-top: 4.3rem;
+  margin-bottom: 3rem;
+}
+#cont_wrap #contact_body #conttrig .ctr {
+  cursor: pointer;
+  font-size: 1.6rem;
+  color: #fc0;
+  line-height: 1;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  font-family: 'Philosopher';
+}
+#cont_wrap #contact_body #conttrig .ctr.active {
+  text-decoration: underline;
+}
+#cont_wrap #contact_body #conttrig .ctr:hover {
+  color: #fff;
+  -webkit-transition: 0.5s;
+     -moz-transition: 0.5s;
+          transition: 0.5s;
+}
+#cont_wrap #contact_body .tab_wrap {
+  width: 58.3rem;
+  height: 39.4rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  position: relative;
+  background-image: url("../../img/cont_tablet_form.png");
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-origin: padding-box;
+}
+#cont_wrap #contact_body .tab_wrap .tab_body {
+  width: 46.4rem;
+  height: 35rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  overflow: hidden;
+  position: absolute;
+  left: 5.9rem;
+  top: 2.2rem;
+}
+#cont_wrap #contact_body .tab_wrap .f_h {
+  width: 44.5rem;
+  margin: 0 auto;
+  display: table;
+  text-align: center;
+  border-bottom: 1px solid #999;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.8rem;
+}
+#cont_wrap #contact_body .tab_wrap .f_h h1 {
+  font-family: 'Ubuntu';
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  color: #666;
+}
+#cont_wrap #contact_body .tab_wrap p.f_p {
+  font-family: 'Ubuntu';
+  font-size: 1.2rem;
+  color: #999;
+  text-align: center;
+  margin: 0 auto;
+  display: table;
+  width: 28rem;
+  padding-bottom: 1rem;
+}
+#cont_wrap #contact_body .conbl {
+  display: none;
+  opacity: 0;
+}
+#cont_wrap #contact_body .conbl.active {
+  display: block;
+  opacity: 1;
+}
+#cont_wrap #contact_body #conb1 .letter {
+  width: 66.2rem;
+  height: 37.4rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  background-image: url("../../img/cont_letter.png");
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-origin: padding-box;
+  position: relative;
+}
+#cont_wrap #contact_body #conb1 .letter .p1,
+#cont_wrap #contact_body #conb1 .letter .p2,
+#cont_wrap #contact_body #conb1 .letter .p3 {
+  position: absolute;
+}
+#cont_wrap #contact_body #conb1 .letter .p1 {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #52110e;
+  line-height: 1.3;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  font-family: 'Philosopher';
+  top: 9rem;
+  left: 16rem;
+}
+#cont_wrap #contact_body #conb1 .letter .p1 span {
+  font-weight: 700;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+#cont_wrap #contact_body #conb1 .letter .p2 {
+  text-align: left;
+  font-size: 1.4rem;
+  color: #52110e;
+  line-height: 1.3;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  font-family: 'Philosopher';
+  top: 28.2rem;
+  left: 5.4rem;
+}
+#cont_wrap #contact_body #conb1 .letter .p2 span {
+  font-weight: 700;
+}
+#cont_wrap #contact_body #conb1 .letter .p3 {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #b48800;
+  line-height: 1.3;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  font-family: 'Philosopher';
+  top: 29.5rem;
+  left: 35rem;
+}
+#cont_wrap #contact_body #conb1 .letter .p3 span {
+  font-weight: 700;
+}
+#cont_wrap #contact_body #conb1 .letter .p3 a {
+  font-size: 1.4rem;
+  color: #b48800;
+  line-height: 1.3;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  font-family: 'Philosopher';
+}
+#cont_wrap #contact_body #conb1 .letter .p3 a:hover {
+  color: #fff;
+  -webkit-transition: 1s;
+     -moz-transition: 1s;
+          transition: 1s;
+}
+#cont_wrap #contact_body #conb2,
+#cont_wrap #contact_body #conb3 {
+  width: 58.3rem;
+}
+#cont_wrap #contact_body #conb2 .f_row,
+#cont_wrap #contact_body #conb3 .f_row {
+  width: 42rem;
+  margin: 0 auto;
+  display: table;
+}
+#cont_wrap #contact_body #conb2 .f_row .f_text,
+#cont_wrap #contact_body #conb3 .f_row .f_text,
+#cont_wrap #contact_body #conb2 .f_row .f_inp,
+#cont_wrap #contact_body #conb3 .f_row .f_inp {
+  display: inline-block;
+  vertical-align: top;
+}
+#cont_wrap #contact_body #conb2 .f_row .f_text,
+#cont_wrap #contact_body #conb3 .f_row .f_text {
+  font-family: 'Ubuntu';
+  font-size: 1.4rem;
+  text-align: right;
+  color: #666;
+  width: 10rem;
+  margin-right: 0.6rem;
+}
+#cont_wrap #contact_body #conb2 .f_row .f_inp input,
+#cont_wrap #contact_body #conb3 .f_row .f_inp input,
+#cont_wrap #contact_body #conb2 .f_row .f_inp textarea,
+#cont_wrap #contact_body #conb3 .f_row .f_inp textarea {
+  border-radius: 4px;
+  border: 1px solid #888;
+  width: 29.8rem;
+  font-family: 'Ubuntu';
+  font-size: 1.4rem;
+  position: relative;
+  top: -0.3rem;
+  margin-bottom: 0.9rem;
+}
+#cont_wrap #contact_body #conb2 .f_row .f_inp input,
+#cont_wrap #contact_body #conb3 .f_row .f_inp input {
+  height: 2.1rem;
+  padding: 0 0.3rem;
+}
+#cont_wrap #contact_body #conb2 .f_row .f_inp textarea,
+#cont_wrap #contact_body #conb3 .f_row .f_inp textarea {
+  resize: none;
+  height: 8.5rem;
+  padding: 0.1rem 0.3rem;
+}
+#cont_wrap #contact_body #conb2 .f_sub input,
+#cont_wrap #contact_body #conb3 .f_sub input {
+  width: 16.1rem;
+  height: 2.7rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  margin: 0 auto;
+  display: table;
+  text-align: center;
+  font-family: 'Ubuntu';
+  color: #666;
+  font-size: 1.4rem;
+  background-color: #e8e8e8;
+  border-radius: 3px;
+  border: 1px solid #888;
+  -webkit-transition: 1s;
+     -moz-transition: 1s;
+          transition: 1s;
+}
+#cont_wrap #contact_body #conb2 .f_sub input:hover,
+#cont_wrap #contact_body #conb3 .f_sub input:hover {
+  color: #fff;
+  background-color: #888;
+  -webkit-transition: 1s;
+     -moz-transition: 1s;
+          transition: 1s;
+}
+#map_canvas {
+  width: 46.4rem;
+  height: 35rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+}

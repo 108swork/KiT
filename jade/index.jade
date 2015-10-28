@@ -1,0 +1,67 @@
+doctype html
+html(lang="en")
+	head 
+		title site
+		meta(charset="utf-8")
+		//- meta(name="viewport" content="width=device-width, initial-scale=1.0")
+		//- meta(name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0")
+
+		link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css")
+		link(href='https://fonts.googleapis.com/css?family=Philosopher:400,700,400italic,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css')
+		link(rel="stylesheet" type="text/css" href="css/min/main.css")
+
+		script(src="https://code.jquery.com/jquery-1.11.3.min.js") 
+		script(src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js")
+		script(src="js/min/main.js") 
+
+	body
+		#wrap.genp
+			#head_wrap
+				.header.sw.mauto
+					ul.head_menu.ta_just
+						li
+							a(href="#")
+								span Компания
+						|&#32;
+						li 
+							a(href="#")
+								span Продукция
+						|&#32;
+						//- TODO change class when modx
+						li.some_class 
+							a(href="#")
+								span. 
+									Кондитерские
+									инновации и
+									технологии
+						|&#32;
+						li 
+							a(href="#")
+								span Партнерам
+						|&#32;
+						li 
+							a(href="#")
+								span Контакты
+						|&#32;
+			#genp_slider_wrap
+				.genp_slider.mauto
+					.slide1.gs_slide
+						.sp1.sp
+						.sp2.sp
+						.sp3.sp
+						.sp4.sp
+						.sp5.sp
+						.sp6.sp
+						.sp7.sp.
+							Маленькие, завернутые в обертки сладости,
+							без которых сегодня не обходится ни один
+							десертный стол, могут рассказать много
+							интересных историй. Вспомним самые
+							любопытные факты, связанные с конфетами.
+				.gs_menu.sw.ta_just.mauto
+					.gsm_trig1.gsmt
+					|&#32;
+					.gsm_trig2.gsmt
+					|&#32;
+					.gsm_trig3.gsmt
+			#footer_wrap

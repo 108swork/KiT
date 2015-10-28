@@ -1,0 +1,658 @@
+@import "mixvar.styl"
+*
+  margin 0
+  padding 0
+  box-sizing border-box
+html, body
+  height: 100%;
+  mp(0,0)
+  {oh}
+html
+  font-size 10px
+body
+  overflow auto
+  grad(#691003,#4b0a00)
+#t1000
+  blok(100%,1000px)
+#wrap
+  {wrapp}
+  min-height 100%
+  padding-bottom footerPad
+  bim('genp_bg.png',bp: 50% 100%)
+  &.cat_bg
+    bim('cat_bg.png',bp: center)
+  &.genp
+    padding-bottom 0
+    #footer_wrap
+      display none
+#footer_wrap
+  {wrapp}
+  h footerPad
+  {posa}
+  b 0
+  l 0
+.wrap
+  {wrapp}
+.sw
+  width 100rem
+.clear
+  blok(100%,c:both)
+.mauto
+  {mauto}
+.mautota
+  {mautota}
+.ta_just
+  text-align justify
+  > *
+    display inline-block
+  &:after
+    content ''
+    display inline-block
+    width 100%
+.tac,.ta_c
+  {tac}
+.tar,.ta_r
+  {tar}
+.tal,.ta_l
+  {tal}
+.ttn
+  {ttn}
+.ttl
+  {ttl}
+.ttu
+  {ttu}
+.ttc
+  {ttc}
+.vam
+  {vam}
+div,ul
+  list-style-type none
+p
+  font(1.4rem)
+a
+  {tdn}
+ul,li
+  list-style-type none
+
+#head_wrap
+  {wrapp}
+  .header
+    {oh}
+    ul.head_menu
+      padding 2rem 16.5rem
+      font-size 0px
+      li
+        // width 18
+        {vam}
+        {tac}
+        a
+          {oh}
+          span
+            font(1.8rem,#f4c644,1)
+            {ttc}
+            position relative
+            t -3rem
+        &.some_class  // TODO change class when modx
+          a
+            display block
+            height 100%
+            &:before
+              content ''
+              bl(11rem,10.8rem)
+              spr(0 -129.7rem)
+              display block
+              {clear}
+              {mauto}
+              mb 1rem
+            span
+              font(1.2rem,#300600,fw:700)
+              display block
+              width 12rem
+              position static
+              {mauto}
+              {ttu}
+          &:hover
+            a
+              span
+                transition 1s
+                color #fff
+        &.active
+          span
+            {tdu}
+        &:hover
+          span
+            transition .5s
+            color #fff
+#footer_wrap
+  pt 2.3rem
+  .footer
+    {oh}
+    w 93rem
+    .foo_left
+      {fl}
+      w 60%
+      p
+        font(1.4rem,#2c0400,1,700)
+        {ttu}
+    .foo_right
+      {fr}
+      w 30%
+      {tar}
+      p
+        font(1.4rem,#2c0400,1,700)
+        a
+          &:hover
+            color #fff
+            cursor pointer
+            transition 1s
+#genp_slider_wrap
+  mt -1rem
+  .genp_slider
+    mb 3rem
+    width 98rem
+    {oh}
+    .gs_slide
+      bl(98rem,50rem)
+      {posr}
+    .slide1
+      .sp
+        {posa}
+      .sp1
+        bim('slide11.png')
+        bl(43.7rem,32.7rem)
+        t 6.9rem
+        l 6.9rem
+      .sp2
+        bim('slide12.png')
+        bl(40.7rem,33.9rem)
+        t 4.7rem
+        l 45rem
+      .sp3
+        bim('slide13.png')
+        bl(29rem,21.3rem)
+        t 22rem
+        l 14.8rem
+      .sp4
+        bim('slide14.png')
+        bl(19.6rem,11rem)
+        t 32.2rem
+        l 44.2rem
+      .sp5
+        bim('slide15.png')
+        bl(52.2rem,13.6rem)
+        t 36.2rem
+        l 3.1rem
+      .sp6
+        bim('slide16.png')
+        bl(27.5rem,7.7rem)
+        t 32rem
+        l 66.2rem
+      .sp7
+        bl(25.4rem,5.9rem)
+        {oh}
+        t 40.1rem
+        l 67.1rem
+        font(1.2rem,#c86800)
+        {it}
+        {tac}
+  .gs_menu
+    pa(0 5rem)
+    w 67rem
+    pb 2rem
+    .gsmt
+      {vam}
+      cursor pointer
+    .gsm_trig1
+      bl(16.2rem,4.7rem)
+      spr(0 -4.8rem)
+      &:hover
+        spr(0 -19.8rem)
+    .gsm_trig2
+      bl(17.9rem,5.2rem)
+      spr(0 -46.2rem)
+      {posr}
+      t -1rem
+      &:hover
+        spr(0 -51.7rem)
+    .gsm_trig3
+      bl(17.7rem,4.5rem)
+      spr(0 0)
+      &:hover
+        spr(0 -9.8rem)
+#cat_wrap
+  {wrapp}
+  {oh}
+  .cat
+    width 98rem
+    background-image url('../../img/cat_polka2.png')
+    background-repeat repeat
+    background-repeat repeat-y
+    background-position 50% 6.7rem
+    pa(0 6rem)
+    mt -6.5rem
+    pb 4rem
+    .cat_item
+      width 25rem
+      height 16rem
+      mt 7rem
+      {posr}
+      img
+        width 100%
+      p
+        {posa}
+        {tac}
+        w 25rem
+        t 14.2rem
+        font(1.2rem,#fff,fw:700)
+        display none
+        opacity 0
+        span
+          font(1.8rem,#fff,fw:700)
+.cat_menu
+  pa(0 5rem)
+  w 67rem
+  pb 2rem
+  .catt
+    {vam}
+    cursor pointer
+  .cat_trig1
+    bl(16.2rem,4.7rem)
+    spr(0 -4.8rem)
+    &:hover
+      spr(0 -19.8rem)
+  .cat_trig2
+    bl(17.9rem,5.2rem)
+    spr(0 -46.2rem)
+    {posr}
+    t -1rem
+    &:hover
+      spr(0 -51.7rem)
+  .cat_trig3
+    bl(17.7rem,4.5rem)
+    spr(0 0)
+    &:hover
+      spr(0 -9.8rem)
+.h1_t1
+  bim('h_bg1.png')
+  {tac}
+  bl(28rem,5rem)
+  mb 3rem
+  h1
+  h2
+    font(2.8rem,#fff,1,700)
+    ma 0
+    {ttu}
+    pt .4rem
+  &.t2
+    bim('h_bg2.png')
+    bl(51rem,5rem)
+  &.t3
+    bim('h_bg3.png')
+    bl(60rem,5rem)
+#cat_it_wrap
+  {wrapp}
+  {oh}
+  pt 3rem
+  pb 5rem
+  .cati
+    w 98rem
+    pa(1rem 2rem 1rem 3rem)
+    {clear}
+    .cati_breadcr
+      font(1.4rem,#300600,1,700)
+      span
+      a
+        color #ecba00
+      a
+        &:hover
+          color #fff
+          transition .5s
+    .cati_left
+      {fl}
+      w 45.5rem
+      h1
+        w 34.5rem
+        {clear}
+        font(3.6rem,#fff,1)
+      .ci
+        {vat}
+        w 5rem
+        h 4.8rem
+        mb 2.5rem
+      .cati_icon1
+        spr(0 -25rem)
+      .cati_icon2
+        spr(0 -14.8rem)
+      .cati_icon3
+        spr(0 -30.2rem)
+      .cati_icon4
+        spr(0 -35.5rem)
+      .cati_info
+        pt .8rem
+        {vat}
+        {tac}
+        w 17rem
+        .cati_prop
+          font(1.2rem,#fff)
+          {ttu}
+        .cati_val
+          font(1.6rem,#fff)
+          &.small_text
+            font(1.4rem,#fff)
+    .cati_right
+      {fr}
+      w 47rem
+#partn_wrap
+  .h1_t1
+    mt 1.5rem
+  .partn
+    w 93rem
+    strong
+    h2
+      {clear}
+      {mautota}
+    h2
+      font(2.8rem,#fff,1,700)
+      mb 4.5rem
+    strong
+      font(1.6rem,#fff)
+      mb 2rem
+    .pbll
+      w 45.5rem
+      {fl}
+    .pblr
+      {fr}
+      w 47rem
+    .partn_bl1
+    .partn_bl2
+      {posr}
+      left 3.5rem
+    .partn_bl1
+      {oh}
+      mb 3rem
+      .icon
+      .info
+        {vat}
+        strong
+          ma(0)
+          font(1.6rem,#fff,fw:700)
+          {vam}
+      .icon
+        bl(10rem,10rem)
+        mr 3rem
+      .icon1
+      .icon2
+      .icon3
+      .icon4
+        {posr}
+      .info
+        font(1.6rem,#fff)
+      .icon1
+        bl(9.7rem,7.4rem)
+        spr(0 -104rem)
+      .icon2
+        bl(9.9rem,7.7rem)
+        spr(0 -111.9rem)
+      .icon3
+        bl(9.1rem,9.1rem)
+        spr(0 -120.1rem)
+        t 2rem
+      .icon4
+        bl(9.9rem,6.7rem)
+        spr(0 -96.8rem)
+        t 2rem
+      .pbll
+        .info
+          w 28.5rem
+      .pblr
+        .info
+          w 30rem
+    .partn_bl2
+      {oh}
+      pt 1rem
+      pb 1rem
+      .icon
+      .info
+        {vat}
+        mb 4rem
+      .info
+        font(1.6rem,#fff)
+        strong
+          ma(0)
+          font(1.6rem,#fff,fw:700)
+          {vam}
+      .icon
+        bl(7rem,6rem)
+        mr 2rem
+      .icon5
+      .icon6
+      .icon7
+      .icon8
+      .icon9
+      .icon10
+      .icon11
+        {posr}
+      .pbll
+        .info
+          w 35.5rem
+      .pblr
+        .info
+          w 36.5rem
+      .icon5
+        bl(6rem,6rem)
+        spr(0 -83.4rem)
+      .icon6
+        bl(6.4rem,6rem)
+        spr(0 -76.9rem)
+        t -.8rem
+      .icon7
+        bl(6rem,4.9rem)
+        spr(0 -40.8rem)
+      .icon8
+        bl(6rem,6rem)
+        spr(0 -63.9rem)
+        t -1rem
+      .icon9
+        bl(5.6rem,6rem)
+        spr(0 -70.4rem)
+        t -1rem
+      .icon10
+        bl(6rem,6rem)
+        spr(0 -57.4rem)
+      .icon11
+        bl(4.8rem,6.4rem)
+        spr(0 -89.9rem)
+        t 1rem
+#company_wrap
+  {wrapp}
+  .company
+    w 98rem
+    p.p1
+      w 80rem
+      {mauto}
+      mb 2rem
+      text-indent 2rem
+      font(1.6rem,#fff,1.5)
+      a
+        {tdn}
+        font(1.6rem,#fff)
+        &:hover
+          text-shadow 0 0 5px #fff
+    .com_imglist1.ta-just
+    .com_imglist21.ta-just
+      w 77rem
+    .com_imglist22.ta-just
+      w 57rem
+    p.p2
+      72rem
+      font(1.6rem,#fff)
+    p.p3
+      w 77rem
+      text-indent 3.5rem
+      font(1.6rem,#fff,1.4)
+      // TODO finish style when material be
+#cont_wrap
+  w 100%
+  {oh}
+  {posr}
+  pt 1.5rem
+  min-height 65rem
+  .cw_bgp
+    {posa}
+    l 50%
+  #cw_bgp1
+    bim('cont_bg1.png')
+    bl(30.9rem,38.9rem)
+    t 12rem
+    ml -66.6rem
+  #cw_bgp2
+    bim('cont_bg2.png')
+    bl(19.1rem,16.7rem)
+    t 43.2rem
+    ml -62.7rem
+  #cw_bgp3
+    bim('cont_bg3.png')
+    bl(42rem,46rem)
+    t 13rem
+    ml 40.8rem
+  #contact_body
+    z-index 1
+    #conttrig
+      w 45.5rem
+      mt 4.3rem
+      mb 3rem
+      .ctr
+        cursor pointer
+        font(1.6rem,#ffcc00,1)
+        &.active
+          {tdu}
+        &:hover
+          color #fff
+          transition .5s
+    .tab_wrap
+      bl(58.3rem,39.4rem)
+      {posr}
+      bim('cont_tablet_form.png')
+      .tab_body
+        bl(46.4rem,35rem)
+        {oh}
+        {posa}
+        l 5.9rem
+        t 2.2rem
+      .f_h
+        w 44.5rem
+        {mautota}
+        {tac}
+        border-bottom 1px solid #999
+        mt 1rem
+        mb .5rem
+        pb .8rem
+        h1
+          font-family 'Ubuntu'
+          font-size 1.8rem
+          font-weight 400
+          mp(0,0)
+          color #666
+      p.f_p
+        font-family 'Ubuntu'
+        font-size 1.2rem
+        color #999
+        {tac}
+        {mautota}
+        w 28rem
+        pb 1rem
+    .conbl
+      display none
+      opacity 0
+      &.active
+        display block
+        opacity 1
+    #conb1
+      .letter
+        bl(66.2rem,37.4rem)
+        bim('cont_letter.png')
+        {posr}
+        .p1
+        .p2
+        .p3
+          {posa}
+        .p1
+          {tac}
+          font(1.2rem,#52110e)
+          span
+            font-weight 700
+            font-size 1.4rem
+            {ttu}
+          t 9rem
+          l 16rem
+        .p2
+          {tal}
+          font(1.4rem,#52110e)
+          span
+            font-weight 700
+          t 28.2rem
+          l 5.4rem
+        .p3
+          {tac}
+          font(1.4rem,#b48800)
+          span
+            font-weight 700
+          a
+            font(1.4rem,#b48800)
+            &:hover
+              color #fff
+              transition 1s
+          t 29.5rem
+          l 35rem
+    #conb2
+    #conb3
+      w 58.3rem
+      .f_row
+        w 42rem
+        {mautota}
+        .f_text
+        .f_inp
+          {vat}
+        .f_text
+          font-family 'Ubuntu'
+          font-size 1.4rem
+          text-align right
+          color #666
+          w 10rem
+          mr .6rem
+        .f_inp
+          input
+          textarea
+            border-radius 4px
+            border 1px solid #888
+            w 29.8rem
+            font-family 'Ubuntu'
+            font-size 1.4rem
+            {posr}
+            t -.3rem
+            mb .9rem
+          input
+            h 2.1rem
+            pa(0 .3rem)
+          textarea
+            resize none
+            h 8.5rem
+            pa(.1rem .3rem)
+      .f_sub
+        input
+          bl(16.1rem,2.7rem)
+          {mautota}
+          {tac}
+          font-family 'Ubuntu'
+          color #666
+          font-size 1.4rem
+          background-color #e8e8e8
+          border-radius 3px
+          border 1px solid #888
+          transition 1s
+          &:hover
+            color #fff
+            background-color #888
+            transition 1s
+#map_canvas
+  bl(46.4rem,35rem)

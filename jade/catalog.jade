@@ -1,0 +1,86 @@
+doctype html
+html(lang="en")
+	head 
+		title catalog-list
+		meta(charset="utf-8")
+		//- meta(name="viewport" content="width=device-width, initial-scale=1.0")
+		//- meta(name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0")
+
+		link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css")
+		link(href='https://fonts.googleapis.com/css?family=Philosopher:400,700,400italic,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css')
+		link(rel="stylesheet" type="text/css" href="css/min/main.css")
+
+		script(src="https://code.jquery.com/jquery-1.11.3.min.js") 
+		script(src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js")
+		script(src="js/min/main.js") 
+
+	body
+		#wrap.cat_bg
+			#head_wrap
+				.header.sw.mauto
+					ul.head_menu.ta_just
+						li 
+							a(href="#")
+								span Компания
+						|&#32;
+						li 
+							a(href="#")
+								span Продукция
+						|&#32;
+						//- TODO change class when modx
+						li.some_class 
+							a(href="#")
+								span. 
+									Кондитерские
+									инновации и
+									технологии
+						|&#32;
+						li 
+							a(href="#")
+								span Партнерам
+						|&#32;
+						li 
+							a(href="#")
+								span Контакты
+						|&#32;
+			.h1_t1.mauto
+				h1 продукция
+			.cat_menu.ta_just.mauto
+				.cat_trig1.catt
+				|&#32;
+				.cat_trig2.catt
+				|&#32;
+				.cat_trig3.catt
+				|&#32;
+			#cat_wrap
+				.cat.ta_just.mauto
+					a(href="#").cat_item
+						img(src="img/cat/vtv6.png")
+						p Подпись
+					|&#32;
+					a(href="#").cat_item
+						img(src="img/cat/ia.png")
+						p <span>Подпись</span><br>  Подпись Подпись Подпись   
+					|&#32;
+					a(href="#").cat_item
+						img(src="img/cat/kf.png")
+						p Подпись  Подпись
+					|&#32;
+					a(href="#").cat_item
+						img(src="img/cat/vtv8.png")
+						p Подпись  Подпись
+					|&#32;
+					a(href="#").cat_item
+						img(src="img/cat/vk.png")
+						p Подпись
+					|&#32;
+					a(href="#").cat_item
+						img(src="img/cat/pma.png")
+						p Подпись  Подпись
+					|&#32;
+			#footer_wrap
+				.footer.mauto
+					.foo_left
+						p © 2015 ООО «Кондитерские инновации и технологии»
+					.foo_right
+						p Разработка сайта <a>Web верфЬ</a>

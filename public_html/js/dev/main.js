@@ -138,7 +138,7 @@ var places = [
 function setMarkers(map, locations) {
   var latlngbounds = new google.maps.LatLngBounds();
 
-  var image = new google.maps.MarkerImage('./img/map_marker.png',
+  var image = new google.maps.MarkerImage('dist/img/map_marker.png',
   new google.maps.Size(87, 87),
   new google.maps.Point(0,0),
   new google.maps.Point(0, 87));

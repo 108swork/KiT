@@ -259,246 +259,6 @@ li {
      -moz-transition: 1s;
           transition: 1s;
 }
-#genp_slider_wrap {
-  margin-top: -1rem;
-}
-#genp_slider_wrap .genp_slider {
-  margin-bottom: 3rem;
-  width: 98rem;
-  overflow: hidden;
-}
-#genp_slider_wrap .genp_slider .gs_slide {
-  width: 98rem;
-  height: 50rem;
-  float: none;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
-  clear: none;
-  min-width: 0;
-  min-height: 0;
-  max-width: none;
-  max-height: none;
-  position: relative;
-}
-#genp_slider_wrap .genp_slider .slide1 .sp {
-  position: absolute;
-}
-#genp_slider_wrap .genp_slider .slide1 .sp1 {
-  background-image: url("../../img/slide11.png");
-  background-size: auto auto;
-  background-repeat: no-repeat;
-  background-position: 0% 0%;
-  background-origin: padding-box;
-  width: 43.7rem;
-  height: 32.7rem;
-  float: none;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
-  clear: none;
-  min-width: 0;
-  min-height: 0;
-  max-width: none;
-  max-height: none;
-  top: 6.9rem;
-  left: 6.9rem;
-}
-#genp_slider_wrap .genp_slider .slide1 .sp2 {
-  background-image: url("../../img/slide12.png");
-  background-size: auto auto;
-  background-repeat: no-repeat;
-  background-position: 0% 0%;
-  background-origin: padding-box;
-  width: 40.7rem;
-  height: 33.9rem;
-  float: none;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
-  clear: none;
-  min-width: 0;
-  min-height: 0;
-  max-width: none;
-  max-height: none;
-  top: 4.7rem;
-  left: 45rem;
-}
-#genp_slider_wrap .genp_slider .slide1 .sp3 {
-  background-image: url("../../img/slide13.png");
-  background-size: auto auto;
-  background-repeat: no-repeat;
-  background-position: 0% 0%;
-  background-origin: padding-box;
-  width: 29rem;
-  height: 21.3rem;
-  float: none;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
-  clear: none;
-  min-width: 0;
-  min-height: 0;
-  max-width: none;
-  max-height: none;
-  top: 22rem;
-  left: 14.8rem;
-}
-#genp_slider_wrap .genp_slider .slide1 .sp4 {
-  background-image: url("../../img/slide14.png");
-  background-size: auto auto;
-  background-repeat: no-repeat;
-  background-position: 0% 0%;
-  background-origin: padding-box;
-  width: 19.6rem;
-  height: 11rem;
-  float: none;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
-  clear: none;
-  min-width: 0;
-  min-height: 0;
-  max-width: none;
-  max-height: none;
-  top: 32.2rem;
-  left: 44.2rem;
-}
-#genp_slider_wrap .genp_slider .slide1 .sp5 {
-  background-image: url("../../img/slide15.png");
-  background-size: auto auto;
-  background-repeat: no-repeat;
-  background-position: 0% 0%;
-  background-origin: padding-box;
-  width: 52.2rem;
-  height: 13.6rem;
-  float: none;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
-  clear: none;
-  min-width: 0;
-  min-height: 0;
-  max-width: none;
-  max-height: none;
-  top: 36.2rem;
-  left: 3.1rem;
-}
-#genp_slider_wrap .genp_slider .slide1 .sp6 {
-  background-image: url("../../img/slide16.png");
-  background-size: auto auto;
-  background-repeat: no-repeat;
-  background-position: 0% 0%;
-  background-origin: padding-box;
-  width: 27.5rem;
-  height: 7.7rem;
-  float: none;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
-  clear: none;
-  min-width: 0;
-  min-height: 0;
-  max-width: none;
-  max-height: none;
-  top: 32rem;
-  left: 66.2rem;
-}
-#genp_slider_wrap .genp_slider .slide1 .sp7 {
-  width: 25.4rem;
-  height: 5.9rem;
-  float: none;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
-  clear: none;
-  min-width: 0;
-  min-height: 0;
-  max-width: none;
-  max-height: none;
-  overflow: hidden;
-  top: 40.1rem;
-  left: 67.1rem;
-  font-size: 1.2rem;
-  color: #c86800;
-  line-height: 1.3;
-  font-weight: 400;
-  font-style: normal;
-  text-transform: none;
-  font-family: 'Philosopher';
-  font-style: italic;
-  text-align: center;
-}
-#genp_slider_wrap .gs_menu {
-  padding: 0 5rem;
-  width: 67rem;
-  padding-bottom: 2rem;
-}
-#genp_slider_wrap .gs_menu .gsmt {
-  display: inline-block;
-  vertical-align: middle;
-  cursor: pointer;
-}
-#genp_slider_wrap .gs_menu .gsm_trig1 {
-  width: 16.2rem;
-  height: 4.7rem;
-  float: none;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
-  clear: none;
-  min-width: 0;
-  min-height: 0;
-  max-width: none;
-  max-height: none;
-  background-image: url("../../img/sprite.png");
-  background-size: 17.9rem 140.5rem;
-  background-repeat: no-repeat;
-  background-position: 0 -4.8rem;
-}
-#genp_slider_wrap .gs_menu .gsm_trig1:hover {
-  background-image: url("../../img/sprite.png");
-  background-size: 17.9rem 140.5rem;
-  background-repeat: no-repeat;
-  background-position: 0 -19.8rem;
-}
-#genp_slider_wrap .gs_menu .gsm_trig2 {
-  width: 17.9rem;
-  height: 5.2rem;
-  float: none;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
-  clear: none;
-  min-width: 0;
-  min-height: 0;
-  max-width: none;
-  max-height: none;
-  background-image: url("../../img/sprite.png");
-  background-size: 17.9rem 140.5rem;
-  background-repeat: no-repeat;
-  background-position: 0 -46.2rem;
-  position: relative;
-  top: -1rem;
-}
-#genp_slider_wrap .gs_menu .gsm_trig2:hover {
-  background-image: url("../../img/sprite.png");
-  background-size: 17.9rem 140.5rem;
-  background-repeat: no-repeat;
-  background-position: 0 -51.7rem;
-}
-#genp_slider_wrap .gs_menu .gsm_trig3 {
-  width: 17.7rem;
-  height: 4.5rem;
-  float: none;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
-  clear: none;
-  min-width: 0;
-  min-height: 0;
-  max-width: none;
-  max-height: none;
-  background-image: url("../../img/sprite.png");
-  background-size: 17.9rem 140.5rem;
-  background-repeat: no-repeat;
-  background-position: 0 0;
-}
-#genp_slider_wrap .gs_menu .gsm_trig3:hover {
-  background-image: url("../../img/sprite.png");
-  background-size: 17.9rem 140.5rem;
-  background-repeat: no-repeat;
-  background-position: 0 -9.8rem;
-}
 #cat_wrap {
   width: 100%;
   min-width: 100rem;
@@ -513,7 +273,7 @@ li {
   background-position: 50% 6.7rem;
   padding: 0 6rem;
   margin-top: -6.5rem;
-  padding-bottom: 4rem;
+  padding-bottom: 6rem;
 }
 #cat_wrap .cat .cat_item {
   width: 25rem;
@@ -548,6 +308,11 @@ li {
   text-transform: none;
   font-family: 'Philosopher';
 }
+#cat_wrap .cat .cat_null {
+  width: 25rem;
+  height: 0px;
+  margin-top: 0;
+}
 .cat_menu {
   padding: 0 5rem;
   width: 67rem;
@@ -580,6 +345,12 @@ li {
   background-repeat: no-repeat;
   background-position: 0 -19.8rem;
 }
+.cat_menu .cat_trig1.active {
+  background-image: url("../../img/sprite.png");
+  background-size: 17.9rem 140.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 -19.8rem;
+}
 .cat_menu .cat_trig2 {
   width: 17.9rem;
   height: 5.2rem;
@@ -604,6 +375,12 @@ li {
   background-repeat: no-repeat;
   background-position: 0 -51.7rem;
 }
+.cat_menu .cat_trig2.active {
+  background-image: url("../../img/sprite.png");
+  background-size: 17.9rem 140.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 -51.7rem;
+}
 .cat_menu .cat_trig3 {
   width: 17.7rem;
   height: 4.5rem;
@@ -621,6 +398,12 @@ li {
   background-position: 0 0;
 }
 .cat_menu .cat_trig3:hover {
+  background-image: url("../../img/sprite.png");
+  background-size: 17.9rem 140.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 -9.8rem;
+}
+.cat_menu .cat_trig3.active {
   background-image: url("../../img/sprite.png");
   background-size: 17.9rem 140.5rem;
   background-repeat: no-repeat;
@@ -740,6 +523,16 @@ li {
   font-style: normal;
   text-transform: none;
   font-family: 'Philosopher';
+}
+#cat_it_wrap .cati .cati_left p {
+  font-size: 1.6rem;
+  color: #fff;
+  line-height: 1.3;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  font-family: 'Philosopher';
+  margin-bottom: 2rem;
 }
 #cat_it_wrap .cati .cati_left .ci {
   display: inline-block;
@@ -1189,12 +982,31 @@ li {
 #company_wrap .company p.p1 a:hover {
   text-shadow: 0 0 5px #fff;
 }
-#company_wrap .company .com_imglist1.ta-just,
-#company_wrap .company .com_imglist21.ta-just {
+#company_wrap .company .com_imglist1,
+#company_wrap .company .com_imglist21 {
   width: 77rem;
 }
-#company_wrap .company .com_imglist22.ta-just {
+#company_wrap .company .com_imglist22 {
   width: 57rem;
+}
+#company_wrap .company .com_imglist21 a,
+#company_wrap .company .com_imglist22 a {
+  width: 17rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+#company_wrap .company .com_imglist21 a span,
+#company_wrap .company .com_imglist22 a span {
+  font-size: 1.6rem;
+  color: #edc446;
+  line-height: 1;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  font-family: 'Philosopher';
+}
+#company_wrap .company .com_imglist1 {
+  margin-bottom: 2rem;
 }
 #company_wrap .company p.p2 {
   font-size: 1.6rem;
@@ -1215,6 +1027,7 @@ li {
   font-style: normal;
   text-transform: none;
   font-family: 'Philosopher';
+  margin-bottom: 1.5rem;
 }
 #cont_wrap {
   width: 100%;
@@ -1560,4 +1373,557 @@ li {
   min-height: 0;
   max-width: none;
   max-height: none;
+}
+.pagination {
+  width: 100%;
+  min-width: 100rem;
+  position: relative;
+}
+.pagination ul.pagination {
+  clear: both;
+  float: none;
+  text-align: center;
+}
+.pagination ul.pagination li {
+  display: inline-block;
+  margin: 0rem 1.5rem 1rem;
+}
+.pagination ul.pagination li a {
+  font-size: 1.6rem;
+  color: #fff;
+  line-height: 1.3;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: none;
+  font-family: 'Philosopher';
+}
+.pagination ul.pagination li:hover a {
+  text-shadow: 1px 1px 2px rgba(255,255,255,0.5);
+}
+.pagination ul.pagination li.active a {
+  font-size: 1.8rem;
+  color: #fff;
+  line-height: 1.3;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: none;
+  font-family: 'Philosopher';
+}
+.pagination .hide {
+  width: 0;
+  height: 0;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  display: none;
+}
+#genp_slider_wrap {
+  margin-top: -1rem;
+}
+#genp_slider_wrap .genp_slider {
+  margin-bottom: 3rem;
+  width: 98rem;
+  overflow: hidden;
+}
+#genp_slider_wrap .genp_slider .gs_slide {
+  width: 98rem;
+  height: 50rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  position: relative;
+}
+#genp_slider_wrap .genp_slider .gs_slide .sp {
+  position: absolute;
+}
+#genp_slider_wrap .genp_slider .slide1 .sp1 {
+  background-image: url("../../img/slide13.png");
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-origin: padding-box;
+  width: 35.1rem;
+  height: 34.4rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  top: 1.1rem;
+  left: 31.9rem;
+}
+#genp_slider_wrap .genp_slider .slide1 .sp2 {
+  background-image: url("../../img/slide11.png");
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-origin: padding-box;
+  width: 42.9rem;
+  height: 29.9rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  top: 15.5rem;
+  left: 3rem;
+}
+#genp_slider_wrap .genp_slider .slide1 .sp3 {
+  background-image: url("../../img/slide12.png");
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-origin: padding-box;
+  width: 16.7rem;
+  height: 12.4rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  top: 34.4rem;
+  left: 25rem;
+}
+#genp_slider_wrap .genp_slider .slide1 .sp4 {
+  background-image: url("../../img/slide15.png");
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-origin: padding-box;
+  width: 30.2rem;
+  height: 16.3rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  top: 23.2rem;
+  left: 67rem;
+}
+#genp_slider_wrap .genp_slider .slide1 .sp5 {
+  background-image: url("../../img/slide14.png");
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-origin: padding-box;
+  width: 30.3rem;
+  height: 21rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  top: 28.3rem;
+  left: 42.6rem;
+}
+#genp_slider_wrap .genp_slider .slide1 .sp6 {
+  background-image: url("../../img/slide16.png");
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-origin: padding-box;
+  width: 20.1rem;
+  height: 5.8rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  top: 3.5rem;
+  left: 71.2rem;
+}
+#genp_slider_wrap .genp_slider .slide1 .sp7 {
+  width: 28.6rem;
+  font-size: 1.4rem;
+  color: #300700;
+  line-height: 1.3;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  font-family: 'Philosopher';
+  text-align: center;
+  font-style: italic;
+  top: 10.2rem;
+  left: 66.8rem;
+}
+#genp_slider_wrap .genp_slider .slide2 .sp1 {
+  background-image: url("../../img/slide21.png");
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-origin: padding-box;
+  width: 29.2rem;
+  height: 32.7rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  top: 1.2rem;
+  left: 39.9rem;
+}
+#genp_slider_wrap .genp_slider .slide2 .sp2 {
+  background-image: url("../../img/slide22.png");
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-origin: padding-box;
+  width: 45.7rem;
+  height: 22.6rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  top: 18.6rem;
+  left: 49.6rem;
+}
+#genp_slider_wrap .genp_slider .slide2 .sp3 {
+  background-image: url("../../img/slide23.png");
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-origin: padding-box;
+  width: 47.6rem;
+  height: 24.1rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  top: 17.2rem;
+  left: 1.3rem;
+}
+#genp_slider_wrap .genp_slider .slide2 .sp4 {
+  background-image: url("../../img/slide24.png");
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-origin: padding-box;
+  width: 33.9rem;
+  height: 23.4rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  top: 27.9rem;
+  left: 22.2rem;
+}
+#genp_slider_wrap .genp_slider .slide2 .sp5 {
+  background-image: url("../../img/slide25.png");
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-origin: padding-box;
+  width: 22.9rem;
+  height: 14rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  top: 31.1rem;
+  left: 56.1rem;
+}
+#genp_slider_wrap .genp_slider .slide2 .sp6 {
+  background-image: url("../../img/slide26.png");
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-origin: padding-box;
+  width: 20.6rem;
+  height: 5.8rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  top: 1.2rem;
+  left: 13.3rem;
+}
+#genp_slider_wrap .genp_slider .slide2 .sp7 {
+  width: 28.7rem;
+  font-size: 1.4rem;
+  color: #300700;
+  line-height: 1.3;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  font-family: 'Philosopher';
+  text-align: center;
+  font-style: italic;
+  top: 7.8rem;
+  left: 9.3rem;
+}
+#genp_slider_wrap .genp_slider .slide3 .sp1 {
+  background-image: url("../../img/slide31.png");
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-origin: padding-box;
+  width: 35.6rem;
+  height: 28.8rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  top: 6.5rem;
+  left: 27.3rem;
+}
+#genp_slider_wrap .genp_slider .slide3 .sp2 {
+  background-image: url("../../img/slide32.png");
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-origin: padding-box;
+  width: 32.9rem;
+  height: 36.7rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  top: 4.5rem;
+  left: 6.9rem;
+}
+#genp_slider_wrap .genp_slider .slide3 .sp3 {
+  background-image: url("../../img/slide33.png");
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-origin: padding-box;
+  width: 49.6rem;
+  height: 24rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  top: 17.1rem;
+  left: 46.9rem;
+}
+#genp_slider_wrap .genp_slider .slide3 .sp4 {
+  background-image: url("../../img/slide34.png");
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-origin: padding-box;
+  width: 29rem;
+  height: 25.2rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  top: 23.8rem;
+  left: 27.4rem;
+}
+#genp_slider_wrap .genp_slider .slide3 .sp5 {
+  background-image: url("../../img/slide35.png");
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-origin: padding-box;
+  width: 23.1rem;
+  height: 16.7rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  top: 33.2rem;
+  left: 5.7rem;
+}
+#genp_slider_wrap .genp_slider .slide3 .sp6 {
+  background-image: url("../../img/slide36.png");
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-origin: padding-box;
+  width: 22.9rem;
+  height: 14.2rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  top: 34.6rem;
+  left: 55.9rem;
+}
+#genp_slider_wrap .genp_slider .slide3 .sp7 {
+  background-image: url("../../img/slide37.png");
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-origin: padding-box;
+  width: 19.9rem;
+  height: 4.9rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  top: 1.3rem;
+  left: 66rem;
+}
+#genp_slider_wrap .genp_slider .slide3 .sp8 {
+  width: 38.8rem;
+  font-size: 1.4rem;
+  color: #300700;
+  line-height: 1.3;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  font-family: 'Philosopher';
+  text-align: center;
+  font-style: italic;
+  top: 6.5rem;
+  left: 56.5rem;
+}
+#genp_slider_wrap .gs_menu {
+  padding: 0 5rem;
+  width: 67rem;
+  padding-bottom: 2rem;
+}
+#genp_slider_wrap .gs_menu .gsmt {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+#genp_slider_wrap .gs_menu .gsm_trig1 {
+  width: 16.2rem;
+  height: 4.7rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  background-image: url("../../img/sprite.png");
+  background-size: 17.9rem 140.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 -4.8rem;
+}
+#genp_slider_wrap .gs_menu .gsm_trig1:hover {
+  background-image: url("../../img/sprite.png");
+  background-size: 17.9rem 140.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 -19.8rem;
+}
+#genp_slider_wrap .gs_menu .gsm_trig2 {
+  width: 17.9rem;
+  height: 5.2rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  background-image: url("../../img/sprite.png");
+  background-size: 17.9rem 140.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 -46.2rem;
+  position: relative;
+  top: -1rem;
+}
+#genp_slider_wrap .gs_menu .gsm_trig2:hover {
+  background-image: url("../../img/sprite.png");
+  background-size: 17.9rem 140.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 -51.7rem;
+}
+#genp_slider_wrap .gs_menu .gsm_trig3 {
+  width: 17.7rem;
+  height: 4.5rem;
+  float: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  clear: none;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+  max-height: none;
+  background-image: url("../../img/sprite.png");
+  background-size: 17.9rem 140.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+#genp_slider_wrap .gs_menu .gsm_trig3:hover {
+  background-image: url("../../img/sprite.png");
+  background-size: 17.9rem 140.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 -9.8rem;
 }

@@ -145,80 +145,6 @@ ul,li
             color #fff
             cursor pointer
             transition 1s
-#genp_slider_wrap
-  mt -1rem
-  .genp_slider
-    mb 3rem
-    width 98rem
-    {oh}
-    .gs_slide
-      bl(98rem,50rem)
-      {posr}
-    .slide1
-      .sp
-        {posa}
-      .sp1
-        bim('slide11.png')
-        bl(43.7rem,32.7rem)
-        t 6.9rem
-        l 6.9rem
-      .sp2
-        bim('slide12.png')
-        bl(40.7rem,33.9rem)
-        t 4.7rem
-        l 45rem
-      .sp3
-        bim('slide13.png')
-        bl(29rem,21.3rem)
-        t 22rem
-        l 14.8rem
-      .sp4
-        bim('slide14.png')
-        bl(19.6rem,11rem)
-        t 32.2rem
-        l 44.2rem
-      .sp5
-        bim('slide15.png')
-        bl(52.2rem,13.6rem)
-        t 36.2rem
-        l 3.1rem
-      .sp6
-        bim('slide16.png')
-        bl(27.5rem,7.7rem)
-        t 32rem
-        l 66.2rem
-      .sp7
-        bl(25.4rem,5.9rem)
-        {oh}
-        t 40.1rem
-        l 67.1rem
-        font(1.2rem,#c86800)
-        {it}
-        {tac}
-  .gs_menu
-    pa(0 5rem)
-    w 67rem
-    pb 2rem
-    .gsmt
-      {vam}
-      cursor pointer
-    .gsm_trig1
-      bl(16.2rem,4.7rem)
-      spr(0 -4.8rem)
-      &:hover
-        spr(0 -19.8rem)
-    .gsm_trig2
-      bl(17.9rem,5.2rem)
-      spr(0 -46.2rem)
-      {posr}
-      t -1rem
-      &:hover
-        spr(0 -51.7rem)
-    .gsm_trig3
-      bl(17.7rem,4.5rem)
-      spr(0 0)
-      &:hover
-        spr(0 -9.8rem)
 #cat_wrap
   {wrapp}
   {oh}
@@ -230,7 +156,7 @@ ul,li
     background-position 50% 6.7rem
     pa(0 6rem)
     mt -6.5rem
-    pb 4rem
+    pb 6rem
     .cat_item
       width 25rem
       height 16rem
@@ -248,6 +174,10 @@ ul,li
         opacity 0
         span
           font(1.8rem,#fff,fw:700)
+    .cat_null
+      w 25rem
+      h 0px
+      mt 0
 .cat_menu
   pa(0 5rem)
   w 67rem
@@ -260,6 +190,8 @@ ul,li
     spr(0 -4.8rem)
     &:hover
       spr(0 -19.8rem)
+    &.active
+      spr(0 -19.8rem)
   .cat_trig2
     bl(17.9rem,5.2rem)
     spr(0 -46.2rem)
@@ -267,10 +199,14 @@ ul,li
     t -1rem
     &:hover
       spr(0 -51.7rem)
+    &.active
+      spr(0 -51.7rem)
   .cat_trig3
     bl(17.7rem,4.5rem)
     spr(0 0)
     &:hover
+      spr(0 -9.8rem)
+    &.active
       spr(0 -9.8rem)
 .h1_t1
   bim('h_bg1.png')
@@ -314,6 +250,9 @@ ul,li
         w 34.5rem
         {clear}
         font(3.6rem,#fff,1)
+      p
+        font(1.6rem,#fff)
+        mb 2rem
       .ci
         {vat}
         w 5rem
@@ -478,11 +417,21 @@ ul,li
         font(1.6rem,#fff)
         &:hover
           text-shadow 0 0 5px #fff
-    .com_imglist1.ta-just
-    .com_imglist21.ta-just
+    .com_imglist1
+    .com_imglist21
       w 77rem
-    .com_imglist22.ta-just
+    .com_imglist22
       w 57rem
+    .com_imglist21
+    .com_imglist22
+      a
+        w 17rem
+        {tac}
+        mb 1rem
+        span
+          font(1.6rem,#edc446,1)
+    .com_imglist1
+      mb 2rem
     p.p2
       72rem
       font(1.6rem,#fff)
@@ -490,6 +439,7 @@ ul,li
       w 77rem
       text-indent 3.5rem
       font(1.6rem,#fff,1.4)
+      mb 1.5rem
       // TODO finish style when material be
 #cont_wrap
   w 100%
@@ -656,3 +606,176 @@ ul,li
             transition 1s
 #map_canvas
   bl(46.4rem,35rem)
+.pagination
+  {wrapp}
+  ul.pagination
+    {clear}
+    {tac}
+    li
+      display inline-block
+      ma(0rem 1.5rem 1rem)
+      a
+        font(1.6rem,#fff,fw:700)
+      &:hover
+        a
+          text-shadow 1px 1px 2px rgba(255,255,255,.5)
+    li.active
+      a
+        font(1.8rem,#fff,fw:700)
+  .hide
+    bl(0,0)
+    display none
+#genp_slider_wrap
+  mt -1rem
+  .genp_slider
+    mb 3rem
+    width 98rem
+    {oh}
+    .gs_slide
+      bl(98rem,50rem)
+      {posr}
+      .sp
+        {posa}
+    .slide1
+      .sp1
+        bim('slide13.png')
+        bl(35.1rem,34.4rem)
+        t 1.1rem
+        l 31.9rem
+      .sp2
+        bim('slide11.png')
+        bl(42.9rem,29.9rem)
+        t 15.5rem
+        l 3rem
+      .sp3
+        bim('slide12.png')
+        bl(16.7rem,12.4rem)
+        t 34.4rem
+        l 25rem
+      .sp4
+        bim('slide15.png')
+        bl(30.2rem,16.3rem)
+        t 23.2rem
+        l 67rem
+      .sp5
+        bim('slide14.png')
+        bl(30.3rem,21rem)
+        t 28.3rem
+        l 42.6rem
+      .sp6
+        bim('slide16.png')
+        bl(20.1rem,5.8rem)
+        t 3.5rem
+        l 71.2rem
+      .sp7
+        w 28.6rem
+        font(1.4rem,#300700)
+        {tac}
+        {it}
+        t 10.2rem
+        l 66.8rem
+    .slide2
+      .sp1
+        bim('slide21.png')
+        bl(29.2rem,32.7rem)
+        t 1.2rem
+        l 39.9rem
+      .sp2
+        bim('slide22.png')
+        bl(45.7rem,22.6rem)
+        t 18.6rem
+        l 49.6rem
+      .sp3
+        bim('slide23.png')
+        bl(47.6rem,24.1rem)
+        t 17.2rem
+        l 1.3rem
+      .sp4
+        bim('slide24.png')
+        bl(33.9rem,23.4rem)
+        t 27.9rem
+        l 22.2rem
+      .sp5
+        bim('slide25.png')
+        bl(22.9rem,14rem)
+        t 31.1rem
+        l 56.1rem
+      .sp6
+        bim('slide26.png')
+        bl(20.6rem,5.8rem)
+        t 1.2rem
+        l 13.3rem
+      .sp7
+        w 28.7rem
+        font(1.4rem,#300700)
+        {tac}
+        {it}
+        t 7.8rem
+        l 9.3rem
+    .slide3
+      .sp1
+        bim('slide31.png')
+        bl(35.6rem,28.8rem)
+        t 6.5rem
+        l 27.3rem
+      .sp2
+        bim('slide32.png')
+        bl(32.9rem,36.7rem)
+        t 4.5rem
+        l 6.9rem
+      .sp3
+        bim('slide33.png')
+        bl(49.6rem,24rem)
+        t 17.1rem
+        l 46.9rem
+      .sp4
+        bim('slide34.png')
+        bl(29rem,25.2rem)
+        t 23.8rem
+        l 27.4rem
+      .sp5
+        bim('slide35.png')
+        bl(23.1rem,16.7rem)
+        t 33.2rem
+        l 5.7rem
+      .sp6
+        bim('slide36.png')
+        bl(22.9rem,14.2rem)
+        t 34.6rem
+        l 55.9rem
+      .sp7
+        bim('slide37.png')
+        bl(19.9rem,4.9rem)
+        t 1.3rem
+        l 66rem
+      .sp8
+        w 38.8rem
+        font(1.4rem,#300700)
+        {tac}
+        {it}
+        t 6.5rem
+        l 56.5rem
+  .gs_menu
+    pa(0 5rem)
+    w 67rem
+    pb 2rem
+    .gsmt
+      {vam}
+      cursor pointer
+    .gsm_trig1
+      bl(16.2rem,4.7rem)
+      spr(0 -4.8rem)
+      &:hover
+        spr(0 -19.8rem)
+    .gsm_trig2
+      bl(17.9rem,5.2rem)
+      spr(0 -46.2rem)
+      {posr}
+      t -1rem
+      &:hover
+        spr(0 -51.7rem)
+    .gsm_trig3
+      bl(17.7rem,4.5rem)
+      spr(0 0)
+      &:hover
+        spr(0 -9.8rem)

@@ -66,6 +66,8 @@ function menuScroll(selector) {
 $(document).ready(function(){
 
   $('.cat_item').hover(function(){
+    // TweenMax.killAll(true, true, true, false);
+    TweenMax.killChildTweensOf('.cat_item', true);
     var targ1 = $(this);
     var targ2 = $(this).find('p');
     TweenMax.to(targ1,.5,{scale:1.1});
@@ -100,13 +102,13 @@ $(document).ready(function(){
         $(targ1).addClass('active');
         initialize();
       },1100);
-      // $('.conbl').removeClass('active');
-      // $('.ctr').removeClass('active');
-      // $(targ2).addClass('active');
-      // $(targ1).addClass('active');
-      // initialize();
     }
   });
+
+  if(elch('.fancy')){
+    $('.fancy').fancybox();
+  }
+
 
 
 

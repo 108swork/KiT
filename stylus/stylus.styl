@@ -514,10 +514,12 @@ ul,li
     .conbl
       display none
       opacity 0
-      &.active
-        display block
-        opacity 1
+      // &.active
+      //   display block
+      //   opacity 1
     #conb1
+      display block
+      opacity 1
       .letter
         bl(66.2rem,37.4rem)
         bim('cont_letter.png')
@@ -627,16 +629,21 @@ ul,li
     display none
 #genp_slider_wrap
   mt -1rem
+  {oh}
   .genp_slider
     mb 3rem
-    width 98rem
-    {oh}
+    w 98rem
+    h 50rem
     .gs_slide
       bl(98rem,50rem)
+      display none
+      opacity 0
       {posr}
       .sp
         {posa}
     .slide1
+      display block
+      opacity 1
       .sp1
         bim('slide13.png')
         bl(35.1rem,34.4rem)
